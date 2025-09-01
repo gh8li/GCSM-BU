@@ -66,7 +66,7 @@ Commandline parameters supported by the program are listed in the following tabl
 | 0  | Defult ID, for ablation study      ||
 | 1  | GCSM-BU                            ||
 | 2  | QO-GAMMA*                           ||
-| 3  | GAMMA* (Not used)                 |Use [this repository]() instead.|
+| 3  | GAMMA* (Not used)                 |Use [this repository](https://anonymous.4open.science/r/GAMMA-B587) instead.|
 | 4  | GCSM-BU, with indexing order as matching order.        ||
 | 5  | GCSM-BU, using GAMMA*'s matching order.            ||
 
@@ -129,6 +129,8 @@ With `--algorithm 0`, we perform ablation study, and some other parameters are a
 ## Scripts
 
 Use the python script `experiments/0_run/run_csm.py` to run the experiments in our paper. The script parameters are listed in the `run_csm.py` file. `experiments/0_run/scripts.sh` also shows the usage of `run_csm.py`.
+
+Use the jupyter notebooks in the directory `experiments/2_draw` to draw the charts of query time comparison.
 
 ## Datasets and Querysets
 
